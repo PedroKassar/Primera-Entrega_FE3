@@ -5,6 +5,7 @@ export const GlobalContainer = styled.div`
     margin: 0px;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 `
@@ -47,4 +48,14 @@ export const Button = styled.button`
     padding: 15px;
     border-radius: 10px;
 `
-
+export const CardContainer = styled.div`
+    width: 300px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: coral;
+    align-items: center;
+    border: 5px solid orange;
+    border-radius: 20px;
+`
